@@ -1,0 +1,27 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+// TODO: Snow colored according to ui-variables
+// @import "ui-variables";
+
+@keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-webkit-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+.editor {
+  background-image: url('http://i.imgur.com/uDaCYbP.png'),
+                    url('http://i.imgur.com/FQFQniY.png'),
+                    url('http://i.imgur.com/z0kxb7F.png');
+  -webkit-animation: snow 20s linear infinite;
+}
