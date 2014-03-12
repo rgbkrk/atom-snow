@@ -1,13 +1,12 @@
 {
   "name": "snow",
   "main": "./lib/snow",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Snow!",
   "repository": "https://github.com/rgbkrk/atom-snow",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
